@@ -62,7 +62,7 @@ async def main():
 
             print((f"took {time_taken} seconds to do {done_count} requests, "
                    f"at {Fore.RED}{Style.BRIGHT}rate {round(1 / (time_taken / done_count), 2)} "
-                   f"{Style.RESET_ALL} per request."))
+                   f"{Style.RESET_ALL} per second."))
 
 
 if __name__ == "__main__":
